@@ -19,6 +19,8 @@ body {
 	font-family: Xolonium;
 	margin: 0;
 	background-color: rgba(128,128,128,1);
+	padding-top: 0px;
+	padding-bottom: 100px
 }
 nav .dropdown-menu {
 	font-family: Xolonium;
