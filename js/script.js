@@ -98,7 +98,7 @@ $(document).ready(function () {
 	});
     $('#modalIframe').load(function () {
         // $('#modalIframe').height($('#modalIframe').contents().height());
-        $('#modalIframe').iFrameResize({log:true});
+        $('#modalIframe').iFrameResize({log:true, checkOrigin:false});
     });
 
 	$('#closeModal').click(function(){
