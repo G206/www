@@ -100,7 +100,7 @@ $(document).ready(function () {
         var $email = $(contactEmail).val();
         var $phone = $(contactPhone).val();
         var $body = $(contactMessage).val();
-        var maillink = 'mailto:' + $email + '?' + 'subject=Email%20from%20' + $name + '.%20Contact%20Phone:%20' + $phone +'&body='+ $body;
+        var maillink = 'mailto:w3dev@yahoo.com' + '?' + 'subject=Email%20from%20' + $name + '.%20Email:%20' + $email +'.%20Contact%20Phone:%20' + $phone +'&body='+ $body;
 
         $('#aSubmit').attr('href', maillink);
         $('#aSubmitLink').click();
