@@ -105,9 +105,16 @@ $(document).ready(function () {
         $('#aSubmit').attr('href', maillink);
         $('#aSubmitLink').click();
         //window.open(maillink, '_top');
-
-
     });
+
+    $('#followMe').on('click', 'a', function () {
+        $('#followMeBox').show();
+    });
+
+    $('#followMeBox h4').click(function () {
+        $('#followMeBox').hide();
+    });
+
 });
 
 // function($) {
