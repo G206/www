@@ -94,6 +94,20 @@ $(document).ready(function () {
 		// $('div.iframeBorder').css("min-width", "auto");
 		$('nav, main').css("pointer-events", "auto");
 	});
+
+    $('#btnSubmit').click(function () {
+        var $name = $(contactName).val();
+        var $email = $(contactEmail).val();
+        var $phone = $(contactPhone).val();
+        var $body = $(contactMessage).val();
+        var maillink = 'mailto:' + $email + '?' + 'subject=Email%20from%20' + $name + '.%20Contact%20Phone:%20' + $phone +'&body='+ $body;
+
+        $('#aSubmit').attr('href', maillink);
+        $('#aSubmitLink').click();
+        //window.open(maillink, '_top');
+
+
+    });
 });
 
 // function($) {
