@@ -497,6 +497,10 @@ div.iframeBorder iframe {
 	width: 100%;
 	min-width: 1050px;
 }
+
+#modalIframe{
+	min-height: 480px;
+}
 .close {
 	background: rgba(255,0,0,1);
 	color: white;
