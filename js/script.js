@@ -49,6 +49,7 @@ $(document).ready(function () {
 
 	$('section[id=portfolio] img').click(function(){
 		var source = $(this).attr('id');
+        var iframeSRC;
 		console.log("Image ID: " + source);
 
 		// $('div.iframeBorder').css("min-width", "1050px");
@@ -57,32 +58,42 @@ $(document).ready(function () {
 
 		switch (source) {
 			case 'dma263_p1':
-				$('#modalIframe').attr('src', 'src/dma263_p1/index.html');
+                iframeSRC = 'src/dma263_p1/index.html';
+				$('#modalIframe').attr('src', iframeSRC);
 				break;
 			case 'dma263_p2':
-				$('#modalIframe').attr('src', 'src/dma263_p2/index.html');
+                iframeSRC = 'src/dma263_p2/index.html';
+				$('#modalIframe').attr('src', iframeSRC);
 				break;
 			case 'prog109_a4':
-				$('#modalIframe').attr('src', 'src/prog109_a4/index.html');
+				iframeSRC = 'src/prog109_a4/index.html';
+                $('#modalIframe').attr('src', iframeSRC);
 				break;
 			case 'prog109_p3':
-				$('#modalIframe').attr('src', 'src/prog109_p3/index.html');
+				iframeSRC = 'src/prog109_p3/index.html';
+                $('#modalIframe').attr('src', iframeSRC);
 				break;
 			case 'prog209_a2':
-				$('#modalIframe').attr('src', 'src/prog209_a2/index.html');
+				iframeSRC = 'src/prog209_a2/index.html';
+                $('#modalIframe').attr('src', iframeSRC);
 				break;
 			case 'prog209_a7':
-				$('#modalIframe').attr('src', 'src/prog209_a7/index.html');
+				iframeSRC = 'src/prog209_a7/index.html';
+                $('#modalIframe').attr('src', iframeSRC);
 				break;
 			case 'prog209_p1':
-				$('#modalIframe').attr('src', 'src/prog209_p1/index.html');
+				iframeSRC = 'src/prog209_p1/index.html';
+                $('#modalIframe').attr('src', iframeSRC);
 				break;
 			case 'prog209_p2':
-				$('#modalIframe').attr('src', 'src/prog209_p2/index.html');
+				iframeSRC = 'src/prog209_p2/index.html';
+                $('#modalIframe').attr('src',iframeSRC );
 				break;
 			default:
 				break;
 		}
+
+        $('#aModalIframe').attr('href', iframeSRC);
 
 	});
     $('#modalIframe').load(function () {
