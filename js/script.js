@@ -89,6 +89,11 @@ $(document).ready(function () {
 				iframeSRC = 'src/prog209_p2/index.html';
                 $('#modalIframe').attr('src',iframeSRC );
 				break;
+            case 'prog209_p3':
+				iframeSRC = 'src/prog209_p3/index.html';
+                $('#modalIframe').attr('src',iframeSRC );
+                $('#modalIframe').css('min-height',1000 );
+				break;
 			default:
 				break;
 		}
