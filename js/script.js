@@ -2,6 +2,43 @@
 
 $(document).ready(function () {
     "use strict"; // Start of use strict
+    // Object to define generic object for any item in carousel list used in the HTML side
+    var portfolioObj = {
+        src: '',
+        alt: '',
+        description: '',
+        className: 'item',
+        id: '',
+        href: '#modalBox',
+        target: ''
+    };
+    var itemObj = {
+        src: '',
+        alt: '',
+        description: '',
+        className: 'item',
+    };
+    // Arrays to hold the itemObj in the carousel
+    var portfolioList = [];
+    var yogaList = [];
+    var hobbyList = [];
+    var tempObj = portfolioObj;
+
+    tempObj.src = "images/dma263_p1.jpg";
+    tempObj.alt = "DMA 263 Project 1";
+    tempObj.description = "DMA 263 Project 1";
+    tempObj.class = "item active";
+    tempObj.id = "dma263_p1";
+    portfolioList.push(tempObj);
+
+    tempObj = portfolioObj;
+    tempObj.src = "images/dma263_p2.jpg";
+    tempObj.alt = "DMA 263 Project 2";
+    tempObj.description = "DMA 263 Project 2";
+    tempObj.id = "dma263_p2";
+    portfolioList.push(tempObj);
+
+
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
@@ -52,8 +89,6 @@ $(document).ready(function () {
         var iframeSRC;
 		console.log("Image ID: " + source);
 
-		// $('div.iframeBorder').css("min-width", "1050px");
-
 		$('nav, main').css("pointer-events", "none");
 
 		switch (source) {
@@ -84,15 +119,24 @@ $(document).ready(function () {
 			case 'prog209_p1':
 				iframeSRC = 'src/prog209_p1/index.html';
                 $('#modalIframe').attr('src', iframeSRC);
+                $('#modalMsg').text('This project below is best when played in a full browser window. Please OPEN in new tab.');
 				break;
 			case 'prog209_p2':
 				iframeSRC = 'src/prog209_p2/index.html';
                 $('#modalIframe').attr('src',iframeSRC );
+                $('#modalMsg').text('This project below is best when played in a full browser window. Please OPEN in new tab.');
 				break;
             case 'prog209_p3':
 				iframeSRC = 'src/prog209_p3/index.html';
                 $('#modalIframe').attr('src',iframeSRC );
                 $('#modalIframe').css('min-height',1000 );
+                $('#modalMsg').text('This project below is best when played in a full browser window. Please OPEN in new tab.');
+				break;
+            case 'galaga':
+				iframeSRC = 'http://galaga.w3dev.io/';
+                $('#modalIframe').attr('src',iframeSRC);
+                $('#modalIframe').css('min-height',1000 );
+                $('#modalMsg').text('This project below is best when played in a full browser window. Please OPEN in new tab.');
 				break;
 			default:
 				break;
@@ -112,11 +156,12 @@ $(document).ready(function () {
 	});
 
     $('#btnSubmit').click(function () {
+        var EMAIL = 'gabe@w3dev.io';
         var $name = $(contactName).val();
         var $email = $(contactEmail).val();
         var $phone = $(contactPhone).val();
         var $body = $(contactMessage).val();
-        var maillink = 'mailto:w3dev@yahoo.com' + '?' + 'subject=Email%20from%20' + $name + '.%20Email:%20' + $email +'.%20Contact%20Phone:%20' + $phone +'&body='+ $body;
+        var maillink = 'mailto:' + EMAIL + '?' + 'subject=Email%20from%20' + $name + '.%20Email:%20' + $email +'.%20Contact%20Phone:%20' + $phone +'&body='+ $body;
 
         $('#aSubmit').attr('href', maillink);
         $('#aSubmitLink').click();
