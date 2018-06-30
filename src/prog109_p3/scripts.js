@@ -1,4 +1,4 @@
-//Variables. m variables will hold all media image collections. media var will be an array of all the media images
+//Variables. m variables will hold all media image collections. media var will be an array of all the media image
 var m_count = 9; // Total # of media files counting from 0
 var m_current = -1; // Var to track current place in array
 var m0 =  {

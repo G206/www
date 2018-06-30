@@ -174,7 +174,7 @@ section .statOutput p {
 	height: 1060px;
 	overflow: scroll;
 }
-/*Styling for game images*/
+/*Styling for game image*/
 .pirate {
 	background: url(../_images/pirate512.png) center/64px no-repeat;
 }

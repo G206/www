@@ -52,7 +52,7 @@ var yPosOld;
 var yPosLocked;
 var yPosKey;
 var yPosGold;
-// Variable to store images of special items and locations
+// Variable to store image of special items and locations
 var keyImage = "_images/keys.jpg";
 var wallImage = "_images/wall.jpg";
 var entranceImage = "_images/entrance.jpg"; //"_images/entrance.jpg";
