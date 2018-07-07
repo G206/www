@@ -671,3 +671,8 @@ div.iframeBorder iframe {
 .close:hover {
     background: purple;
 }
+
+/* #mainNav {
+    position: sticky;
+    top: 0;
+} */
