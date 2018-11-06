@@ -15,12 +15,23 @@ h1, h2, nav {
     margin: 0;
 }
 
+h1 {
+    color: red;
+    text-align: center;
+    margin: 2% 0;
+}
+
 body {
     font-family: Xolonium;
     margin: 0;
-    background-color: rgba(128, 128, 128, 1);
     padding-top: 0px;
-    padding-bottom: 100px
+    padding-bottom: 100px;
+    background-image: url(../image/yinyang.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 0%;
+    background-color: rgba(0, 0, 0, 1);
 }
 
 nav .dropdown-menu {
@@ -38,18 +49,12 @@ main {
 main
 section {
     margin: 10% 0 0;
-    padding-bottom: 1%;
+    padding: 1% 0 2% 0;
 }
 
 main section div {
     max-width: 1170px;
     margin: 0 auto;
-}
-
-h1 {
-    color: red;
-    text-align: center;
-    margin: 2% 0;
 }
 
 .navbar-default .navbar-nav .dropdown .listItemCustom {
@@ -220,13 +225,7 @@ h1 {
 }
 
 #mainWeb {
-    background-image: url(../image/yinyang.png);
-    opacity: .9;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center 0%;
-    background-color: rgba(0, 0, 0, 1);
+
 }
 
 /* ALL CSS below is broken down by their respective sections outside the NAV area */
@@ -247,7 +246,8 @@ section[id="portfolio"], section[id="hobbies"] {
 }
 
 section[id="yoga"] {
-    color: rgba(255, 255, 255, .85)
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
 }
 
 section[id="portfolio"] img {

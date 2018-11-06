@@ -64,12 +64,12 @@ $(document).ready(function () {
     $('#hobbyItems').append(createList(hobbyList));
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
-    $('.page-scroll a').click(function (event) {
-        $(this).next('ul').toggle();
-        event.stopPropagation();
-        event.preventDefault();
-        $('html, body').stop();
-    });
+    // $('.page-scroll a').click(function (event) {
+    //     $(this).next('ul').toggle();
+    //     event.stopPropagation();
+    //     event.preventDefault();
+    //     $('html, body').stop();
+    // });
     // $('.page-scroll a').bind('click', function (event) {
     //     var $anchor = $(this);
     //     $('html, body').stop().animate({
