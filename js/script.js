@@ -181,41 +181,41 @@ $(document).ready(function () {
 
         switch (source) {
             case 'dma263_p1':
-                iframeSRC = 'src/dma263_p1/index.html';
+                iframeSRC = 'assets/dma263_p1/index.html';
                 $('#modalIframe').attr('src', iframeSRC);
                 break;
             case 'dma263_p2':
-                iframeSRC = 'src/dma263_p2/index.html';
+                iframeSRC = 'assets/dma263_p2/index.html';
                 $('#modalIframe').attr('src', iframeSRC);
                 break;
             case 'prog109_a4':
-                iframeSRC = 'src/prog109_a4/index.html';
+                iframeSRC = 'assets/prog109_a4/index.html';
                 $('#modalIframe').attr('src', iframeSRC);
                 break;
             case 'prog109_p3':
-                iframeSRC = 'src/prog109_p3/index.html';
+                iframeSRC = 'assets/prog109_p3/index.html';
                 $('#modalIframe').attr('src', iframeSRC);
                 break;
             case 'prog209_a2':
-                iframeSRC = 'src/prog209_a2/index.html';
+                iframeSRC = 'assets/prog209_a2/index.html';
                 $('#modalIframe').attr('src', iframeSRC);
                 break;
             case 'prog209_a7':
-                iframeSRC = 'src/prog209_a7/index.html';
+                iframeSRC = 'assets/prog209_a7/index.html';
                 $('#modalIframe').attr('src', iframeSRC);
                 break;
             case 'prog209_p1':
-                iframeSRC = 'src/prog209_p1/index.html';
+                iframeSRC = 'assets/prog209_p1/index.html';
                 $('#modalIframe').attr('src', iframeSRC);
                 $('#modalMsg').text('This project below is best when played in a full browser window. Please OPEN in new tab.');
                 break;
             case 'prog209_p2':
-                iframeSRC = 'src/prog209_p2/index.html';
+                iframeSRC = 'assets/prog209_p2/index.html';
                 $('#modalIframe').attr('src', iframeSRC);
                 $('#modalMsg').text('This project below is best when played in a full browser window. Please OPEN in new tab.');
                 break;
             case 'prog209_p3':
-                iframeSRC = 'src/prog209_p3/index.html';
+                iframeSRC = 'assets/prog209_p3/index.html';
                 $('#modalIframe').attr('src', iframeSRC);
                 $('#modalIframe').css('min-height', 1000);
                 $('#modalMsg').text('This project below is best when played in a full browser window. Please OPEN in new tab.');
