@@ -25,7 +25,7 @@ $(document).ready(function () {
                 '<img class="img-fluid img-responsive mx-auto d-block" src="' + pArray[i].src + '" alt="' + pArray[i].alt + '">' +
                 '<div class="caption"><h4>' + pArray[i].description + '</h4></div></div></div>';
         }
-        console.log(tList);
+        // console.log(tList);
         return tList;
     }
 
@@ -175,7 +175,7 @@ $(document).ready(function () {
     $('section[id=portfolio] img').click(function () {
         let source = $(this).attr('id');
         let iframeSRC;
-        console.log("Image ID: " + source);
+        // console.log("Image ID: " + source);
 
         $('nav, main').css("pointer-events", "none");
 
