@@ -12,7 +12,7 @@ $(document).ready(function () {
                 '<a href="#modalBox"><img class="img-fluid img-responsive mx-auto d-block" src="' + pArray[i].src + '" id="' + pArray[i].id + '" alt="' + pArray[i].alt + '"></a>' +
                 '<div class="caption"><h4>' + pArray[i].description + '</h4></div></div></div>';
         }
-        console.log(tList);
+        // console.log(tList);
         return tList;
     }
 
@@ -37,7 +37,7 @@ $(document).ready(function () {
             tAdd += '<li data-target=#' + pID + ' data-slide-to="' + i + '"></li>';
         }
         tAdd += '</ol>';
-        console.log(tAdd);
+        // console.log(tAdd);
         return tAdd;
     }
     // Function to create NAV Portfolio items
@@ -48,7 +48,7 @@ $(document).ready(function () {
             tList += '<li class="page-scroll"><a href="#' + pID + '" data-slide-to="' + i + '" onclick="' + pOnClick + '">' + pArray[i].description + '</a></li>';
         }
         tList += '</ol>';
-        console.log(tList);
+        // console.log(tList);
         return tList;
     }
 
