@@ -181,41 +181,41 @@ $(document).ready(function () {
 
         switch (source) {
             case 'dma263_p1':
-                iframeSRC = 'assets/dma263_p1/index.html';
+                iframeSRC = 'http://w3dev.azurewebsites.net/assets/dma263_p1/index.html';
                 $('#modalIframe').attr('src', iframeSRC);
                 break;
             case 'dma263_p2':
-                iframeSRC = 'assets/dma263_p2/index.html';
+                iframeSRC = 'http://w3dev.azurewebsites.net/assets/dma263_p2/index.html';
                 $('#modalIframe').attr('src', iframeSRC);
                 break;
             case 'prog109_a4':
-                iframeSRC = 'assets/prog109_a4/index.html';
+                iframeSRC = 'http://w3dev.azurewebsites.net/assets/prog109_a4/index.html';
                 $('#modalIframe').attr('src', iframeSRC);
                 break;
             case 'prog109_p3':
-                iframeSRC = 'assets/prog109_p3/index.html';
+                iframeSRC = 'http://w3dev.azurewebsites.net/assets/prog109_p3/index.html';
                 $('#modalIframe').attr('src', iframeSRC);
                 break;
             case 'prog209_a2':
-                iframeSRC = 'assets/prog209_a2/index.html';
+                iframeSRC = 'http://w3dev.azurewebsites.net/assets/prog209_a2/index.html';
                 $('#modalIframe').attr('src', iframeSRC);
                 break;
             case 'prog209_a7':
-                iframeSRC = 'assets/prog209_a7/index.html';
+                iframeSRC = 'http://w3dev.azurewebsites.net/assets/prog209_a7/index.html';
                 $('#modalIframe').attr('src', iframeSRC);
                 break;
             case 'prog209_p1':
-                iframeSRC = 'assets/prog209_p1/index.html';
+                iframeSRC = 'http://w3dev.azurewebsites.net/assets/prog209_p1/index.html';
                 $('#modalIframe').attr('src', iframeSRC);
                 $('#modalMsg').text('This project below is best when played in a full browser window. Please OPEN in new tab.');
                 break;
             case 'prog209_p2':
-                iframeSRC = 'assets/prog209_p2/index.html';
+                iframeSRC = 'http://w3dev.azurewebsites.net/assets/prog209_p2/index.html';
                 $('#modalIframe').attr('src', iframeSRC);
                 $('#modalMsg').text('This project below is best when played in a full browser window. Please OPEN in new tab.');
                 break;
             case 'prog209_p3':
-                iframeSRC = 'assets/prog209_p3/index.html';
+                iframeSRC = 'http://w3dev.azurewebsites.net/assets/prog209_p3/index.html';
                 $('#modalIframe').attr('src', iframeSRC);
                 $('#modalIframe').css('min-height', 1000);
                 $('#modalMsg').text('This project below is best when played in a full browser window. Please OPEN in new tab.');
