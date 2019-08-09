@@ -26,7 +26,7 @@ body {
     margin: 0;
     padding-top: 0px;
     padding-bottom: 100px;
-    background-image: url(../image/yinyang.png);
+    background-image: url(../images/yinyang.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -71,7 +71,7 @@ main section div {
 
 .navbar-default .navbar-brand {
     color: #ffffff;
-    background-image: url(../image/web_design.png);
+    background-image: url(../images/web_design.png);
     background-repeat: no-repeat;
     background-size: auto 1.6em;
     padding-left: 56px;
